@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Space Apps Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div id="logo">
+            <img src="nasa-logo.png" alt="NASA Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#teams">Our Team</a></li>
+                <li><a href="#challenges">Our Submission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to the NASA Space Apps Challenge!</h1>
+            <p>Join the world's largest hackathon, an international event where teams from around the globe work together to solve challenges using NASA's open data.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About the Challenge</h2>
+            <p>The NASA Space Apps Challenge is a global hackathon that takes place over 48 hours in cities around the world. Participants use NASA's open data to address real-world problems on Earth and in space.</p>
+        </section>
+
+        <!-- Teams Section -->
+        <section id="teams">
+            <h2>Our Team</h2>
+            <!-- Sample Team -->
+            <div class="team">
+                <h3 class="text">SARtists</h3>
+                <p class="text">Team description goes here.</p>
+            </div>
+            <!-- Add more teams as needed -->
+        </section>
+
+        <!-- Challenges Section -->
+        <section id="challenges">
+            <h2 class="text">Our Submission</h2>
+            <!-- Sample Challenge -->
+            <div class="challenge">
+                <h3 class="text">Challenge Name</h3>
+                <p class="text">Challenge description goes here.</p>
+            </div>
+            <!-- Add more challenges as needed -->
+        </section>
+
+        
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 NASA Space Apps Challenge | All rights reserved.</p>
+        <!--img src="earth-image.jpg" alt="Image of Earth" -->
+    </footer>
+
+</body>
+</html>

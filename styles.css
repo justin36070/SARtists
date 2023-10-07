@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    color:#ffffff;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("earth-image.jpg");
+}
+
+header {
+    background-color: #5c5757;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.team, .challenge {
+   /* border: 1px solid #ffffff; */
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #615a5a;
+    background: rgba(255, 255, 255, 0.164);
+}
+
+.box{
+    opacity: 0.5;
+    color: white;
+}
+
+footer {
+    background-color: #575555;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
