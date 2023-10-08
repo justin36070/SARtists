@@ -70,4 +70,18 @@ footer img {
     transform: translateX(-50%);
     width: 50%;
 }
-
+span {
+ 
+    display: inline-block;
+    
+    vertical-align: middle;
+    
+    line-height: normal;
+    
+   }
+   .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
