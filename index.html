@@ -6,6 +6,10 @@
     <title>NASA Space Apps Challenge</title>
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/bauhaus-93" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/bauhaus-93');
+    </style>
 </head>
 <body>
 
@@ -20,6 +24,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#teams">Our Team</a></li>
                 <li><a href="#challenges">Our Submission</a></li>
+                <li><a href="#Sources">Sources</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -37,17 +42,27 @@
         <!-- About Section -->
         <section id="about">
             <h2>About the Challenge</h2>
-            <p>SAR (synthetic aperture radar) is a powerful tool for studying our planet and is used to investigate Earth processes—from earthquakes and volcanic eruptions to ice sheet changes and forest cover. Your challenge is to bring complex SAR data down to Earth by creating innovative artwork that highlights the unique perspective of SAR sensors. Create a digital art piece (image, video, 3D model, etc.) based on SAR imagery and related products—a work of SARt!</p>
-        </section>
+            
+            </section><span class="container">
+            
+                <p>SAR (synthetic aperture radar) is a powerful tool for studying our planet and is used to investigate Earth processes—from earthquakes and volcanic eruptions to ice sheet changes and forest cover. Your challenge is to bring complex SAR data down to Earth by creating innovative artwork that highlights the unique perspective of SAR sensors. Create a digital art piece (image, video, 3D model, etc.) based on SAR imagery and related products—a work of SARt!</p>
+            <img src="Logo.jpeg" alt="group Image" width="100" height="100" style="padding-left: 20px;"></span>
 
         <!-- Teams Section -->
         <section id="teams">
             <h2>Our Team</h2>
             <!-- Sample Team -->
             <div class="team">
-                <img src="Logo.jpeg" alt="group Image" width="100" height="100">
+                
                 <h3 class="text">SARtists</h3>
+                <div class="container">
                 <img src="group_image.jpg" alt="group Image" width="400" height="300">
+                    
+                    <span style="font-size:18.0pt" >"Our team consists of 4 passionate GeoInformatics students from Stellenbosch University.
+                        We share a keen interest in Remote Sensing, Cartography, Disaster Mitigation, Archaeology, Space exploration and so much more.
+                        All these interests converge in the field of GeoInformatics and GIS."</span>
+                </div>
+                
                 <p class="text">As a diverse group of Geo-Informatics students at Stellenbosch University we are looking forward to creating a work of SARt. </p>
             </div>
             <!-- Add more teams as needed -->
@@ -60,43 +75,61 @@
             <div class="challenge">
                 <h3 class="text">Submision Image</h3>
                 <img src="SARt.png" alt="SARt Map" width="90%" height="90%">
-                <p class="text">Challenge description goes here.</p>
+                <p class="text" style="font-size:18.0pt" >In the vivid tapestry presented by the image, the radiant urban sprawl emerges as a beacon of heaven on Earth. The dazzling lights and intricate network of streets symbolize opportunity, innovation, and an ever-evolving dynamism, offering its denizens an electrifying rhythm of life filled with promise and allure. This urban utopia starkly contrasts the rural and farming areas which appear like patches of desolation, almost hellish in their isolation. These darkened lands, bereft of the glow of progress, depict a life of relentless toil and unyielding monotony. For the individual, the city becomes a sanctuary of dreams and aspirations, elevating their mindset and nurturing their happiness. Conversely, the rural expanse, with its endless cycle of sowing and reaping, may weigh heavily on one's soul, limiting their horizons and dampening their spirits.</p>
                 <h3 class="text">Submision Video</h3>
             <div class="container">
                 
-                <video id="video1" width="640" height="480" controls>
+                <video id="video1" width="640" height="480" controls loop>
                     <source src="Timelaps.mp4" type="video/mp4">
                   </video> 
-                <span >Challenge description goes here.</span>
+                <span style="font-size:18.0pt;padding-left: 20px;">To the left is a visual trip through time, focusing on our area of interest, 
+                    but with an eye on the temporal nature of change. 
+                    
+                    A look through time.
+                    
+                    The timelapse portrays SAR data from 2018 to the most recent available data (late 2023) 
+                    This 'dynamic' perspective reveals additional information which is not apparent at first glance in our work of SARt.
+                    This information includes, but is not limited to:
+                    <li>the rapid increase in crop circle irigation activity</li>
+                    <li>the highly fluctuating water levels of the local source</li>
+                    <li>the dynamic distribution of activity within the urban district and its surrounding area</li>
+                    By utilising synthetic aperture radar for spatial analysis previously hidden details become promenent and connection clear </span>
             </div>
             </div>
             <!-- Add more challenges as needed -->
         </section>
 
         
-
+        <section id="Sources">
+            <h2>Sources</h2>
+            <li>https://www.spaceappschallenge.org/2023/</li>
+            <li>https://dataspace.copernicus.eu/</li>
+            <li>https://www.sentinel-hub.com/explore/eobrowser/</li>
+            <li>https://earth.google.com/</li>
+            </section><span class="container">
+            
+        
         <!-- Contact Section -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <form action="/submit" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            
+					<!-- Instagram -->
+					<a class="btn" href="https://www.instagram.com/spaceappsmaties/" target="_blank" role="button">
+						<img src="icons8-instagram.svg" alt="@spaceappsmaties">
+					</a>
+                    <p>@spaceappsmaties</p>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>© 2023 NASA Space Apps Challenge | All rights reserved.</p>
+        <p>From the minds that brought you cats-place.netlify.app</p>
         <!--img src="earth-image.jpg" alt="Image of Earth" -->
+
+					
+				
     </footer>
 
 </body>

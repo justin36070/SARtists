@@ -1,10 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    color:#ffffff;
+    color:#fff7f7;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
     background-image: url("earth-image.jpg");
+    background-size: cover;
 }
 
 header {
@@ -46,13 +47,13 @@ section {
    /* border: 1px solid #ffffff; */
     padding: 1rem;
     margin-top: 1rem;
-    background-color: #615a5a;
-    background: rgba(255, 255, 255, 0.164);
+    background-color: #000000;
+    background: rgba(5, 5, 5, 0.377);
 }
 
 .box{
-    opacity: 0.5;
-    color: white;
+    opacity: 0.7;
+    color: rgb(44, 44, 44);
 }
 
 footer {
@@ -85,3 +86,8 @@ span {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
    }
+
+   h2{
+    text-decoration: underline;
+    font-family: 'Bauhaus 93', sans-serif;
+}
